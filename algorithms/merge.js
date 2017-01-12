@@ -37,4 +37,4 @@ const merge = (first, second) => {
 
   return sorted
 }
-bubble_sort([ 4, 3, 7, 9, 0, 2, 5, 1, 6, 8 ])
+merge_sort([ 4, 3, 7, 9, 0, 2, 5, 1, 6, 8 ])

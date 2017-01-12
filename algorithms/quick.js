@@ -1,4 +1,4 @@
-const quick = (array) => {
+const quick_sort = (array) => {
   
   if (array.length <= 1)
     {return array}
@@ -21,8 +21,8 @@ const quick = (array) => {
 
   })
 
-  return [...quick(less), middle, ...quick(more)] 
+  return [...quick_sort(less), middle, ...quick_sort(more)] 
 
 }
 
-quick([ 4, 3, 7, 9, 0, 2, 5, 1, 6, 8 ])
+quick_sort([ 4, 3, 7, 9, 0, 2, 5, 1, 6, 8 ])
